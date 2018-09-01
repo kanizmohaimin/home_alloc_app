@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ban"
+    >
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:contentDescription="logo"
+        app:srcCompat="@drawable/logo" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="169dp">
+
+        <RadioButton
+            android:id="@+id/waitinglist"
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:background="@drawable/rounded_button"
+            android:contentDescription="waitinglist"
+            android:gravity="center"
+            android:text="Waiting List"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/profile"
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:background="@drawable/rounded_button"
+            android:contentDescription="profile"
+            android:gravity="center"
+            android:text="My Profile"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/accommodation"
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:background="@drawable/rounded_button"
+            android:contentDescription="acdetails"
+            android:gravity="center"
+            android:text="Accommodation Details"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/submitbtn"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/rectriangle_btn"
+        android:contentDescription="submit"
+        android:text="SUBMIT"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
