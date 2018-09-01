@@ -19,5 +19,6 @@ public class MainActivity extends AppCompatActivity {
     public void start(View view){
         Intent intent1= new Intent(this,login_activity.class);
         startActivity(intent1);
+        //kaniz
     }
 }
