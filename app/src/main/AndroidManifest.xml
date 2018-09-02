@@ -18,7 +18,16 @@
         </activity>
         <activity android:name=".login_activity" />
         <activity android:name=".option_activity" />
-        <activity android:name=".Profile"></activity>
+        <activity android:name=".Profile" />
+        <activity
+            android:name=".accomodation_detail_2"
+            android:label="@string/title_activity_accomodation_detail_2" />
+        <activity
+            android:name=".accomdation_panel"
+            android:label="@string/title_activity_accomdation_panel" />
+        <activity
+            android:name=".genealrulespanel"
+            android:label="@string/title_activity_genealrulespanel"></activity>
     </application>
 
 </manifest>

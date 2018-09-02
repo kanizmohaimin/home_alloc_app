@@ -2,4 +2,11 @@
     <string name="app_name">Project</string>
     <string name="logo">logo</string>
     <string name="JakeCircleProfile">JakeCicleProfile</string>
+    <string name="title_activity_accomodation_detail_to">accomodation_detail_to</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_accomodation_detail_2">accomodation_detail_2</string>
+    <string name="title_activity_accomdation_panel">accomdation_panel</string>
+    <string name="title_activity_genealrulespanel">genealrulespanel</string>
 </resources>
