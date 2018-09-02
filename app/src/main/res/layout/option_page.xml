@@ -24,17 +24,9 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="169dp">
 
-        <Button
-            android:id="@+id/waitinglist"
-            android:layout_width="320dp"
-            android:layout_height="60dp"
-            android:background="@drawable/rounded_button"
-            android:contentDescription="waitinglist"
-            android:gravity="center"
-            android:text="Waiting List"
-            android:textColor="@android:color/white"
-            android:textSize="24sp"
-            android:textStyle="bold" />
+
+
+
 
         <Button
             android:id="@+id/profile"
@@ -48,6 +40,9 @@
             android:textSize="24sp"
             android:textStyle="bold" />
 
+
+
+
         <Button
             android:id="@+id/accommodation"
             android:layout_width="320dp"
@@ -59,6 +54,21 @@
             android:textColor="@android:color/white"
             android:textSize="24sp"
             android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/waitinglist"
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:background="@drawable/rounded_button"
+            android:contentDescription="waitinglist"
+            android:gravity="center"
+            android:text="Waiting List"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+
 
     </RadioGroup>
 
