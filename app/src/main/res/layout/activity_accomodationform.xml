@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/kaniz">
 
+
     <TextView
         android:id="@+id/textView0"
         android:layout_width="wrap_content"
@@ -152,13 +153,13 @@
         android:layout_width="wrap_content"
         android:layout_height="30dp"
         android:layout_alignParentBottom="true"
-        android:layout_alignStart="@+id/textView"
-        android:layout_marginBottom="229dp"
+        android:layout_alignStart="@+id/textView0"
+        android:layout_marginBottom="235dp"
         android:text="Contact Number"
         android:textColor="@android:color/white"
         android:textSize="17sp"
         android:textStyle="bold"
-        android:layout_alignLeft="@+id/textView" />
+        android:layout_alignLeft="@+id/textView0" />
 
     <EditText
         android:id="@+id/contactnumber"
@@ -171,30 +172,53 @@
         android:textSize="17sp"
         android:layout_alignRight="@+id/base" />
 
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView0"
+        android:layout_marginBottom="196dp"
+        android:text="emailaddress"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_alignLeft="@+id/textView0" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="178dp"
+        android:layout_height="25dp"
+        android:layout_alignBottom="@+id/textView9"
+        android:layout_alignEnd="@+id/dateofapply"
+        android:inputType="textEmailAddress"
+        android:text="emailaddress"
+        android:textSize="17sp"
+        android:layout_alignRight="@+id/dateofapply" />
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="30dp"
         android:layout_alignParentBottom="true"
-        android:layout_alignStart="@+id/textView"
-        android:layout_marginBottom="184dp"
+        android:layout_alignStart="@+id/textView0"
+        android:layout_marginBottom="158dp"
         android:text="Date of  Comission"
         android:textColor="@android:color/white"
         android:textSize="17sp"
         android:textStyle="bold"
-        android:layout_alignLeft="@+id/textView" />
+        android:layout_alignLeft="@+id/textView0" />
 
     <EditText
         android:id="@+id/dateofcommision"
         android:layout_width="176dp"
         android:layout_height="25dp"
-        android:layout_alignStart="@+id/contactnumber"
+        android:layout_alignEnd="@+id/dateofapply"
         android:layout_alignTop="@+id/textView6"
         android:inputType="date"
         android:text="dateofcomission"
         android:textSize="17sp"
-        android:layout_alignLeft="@+id/contactnumber" />
+        android:layout_alignRight="@+id/dateofapply" />
 
 
     <TextView
@@ -202,38 +226,39 @@
         android:layout_width="wrap_content"
         android:layout_height="30dp"
         android:layout_alignParentBottom="true"
-        android:layout_alignStart="@+id/textView"
-        android:layout_marginBottom="136dp"
+        android:layout_alignStart="@+id/textView0"
+        android:layout_marginBottom="113dp"
         android:text="Present Address"
         android:textColor="@android:color/white"
         android:textSize="17sp"
         android:textStyle="bold"
-        android:layout_alignLeft="@+id/textView" />
+        android:layout_alignLeft="@+id/textView0" />
 
     <EditText
         android:id="@+id/presentaddress"
         android:layout_width="173dp"
         android:layout_height="25dp"
 
-        android:layout_alignStart="@+id/dateofcommision"
+        android:layout_alignEnd="@+id/dateofapply"
         android:layout_alignTop="@+id/textView7"
         android:inputType="textPersonName"
         android:text="presentaddress"
         android:textSize="17sp"
-        android:layout_alignLeft="@+id/dateofcommision" />
+        android:layout_alignRight="@+id/dateofapply" />
+
 
     <TextView
         android:id="@+id/textView8"
         android:layout_width="118dp"
         android:layout_height="30dp"
         android:layout_alignParentBottom="true"
-        android:layout_alignStart="@+id/textView"
-        android:layout_marginBottom="97dp"
+        android:layout_alignStart="@+id/textView0"
+        android:layout_marginBottom="68dp"
         android:text="no of children"
         android:textColor="@android:color/white"
         android:textSize="17sp"
         android:textStyle="bold"
-        android:layout_alignLeft="@+id/textView" />
+        android:layout_alignLeft="@+id/textView0" />
 
     <EditText
         android:id="@+id/noofchildren"
