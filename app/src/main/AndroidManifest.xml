@@ -27,7 +27,8 @@
             android:label="@string/title_activity_accomdation_panel" />
         <activity
             android:name=".genealrulespanel"
-            android:label="@string/title_activity_genealrulespanel"></activity>
+            android:label="@string/title_activity_genealrulespanel" />
+        <activity android:name=".accomodationform"></activity>
     </application>
 
 </manifest>

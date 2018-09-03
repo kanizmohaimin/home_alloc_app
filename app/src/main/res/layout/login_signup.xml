@@ -60,7 +60,7 @@
         android:layout_marginBottom="50dp"
         android:text="LOGIN"
         android:background="@drawable/rounded_button"
-        android:textSize="30sp"
+    android:textSize="30sp"
         android:onClick="log"/>
 
 </RelativeLayout>

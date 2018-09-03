@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kaniz">
+
+    <TextView
+        android:id="@+id/textView0"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginTop="211dp"
+        android:text="Date of Apply"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_alignLeft="@+id/textView" />
+
+    <EditText
+        android:id="@+id/dateofapply"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_alignStart="@+id/base"
+        android:layout_alignTop="@+id/textView0"
+        android:ems="10"
+        android:inputType="date"
+        android:text="Name"
+        android:layout_alignLeft="@+id/base" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="79dp"
+        android:text="Name"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_alignTop="@+id/textView"
+        android:layout_toEndOf="@+id/textView5"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:layout_toRightOf="@+id/textView5" />
+
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded_button"
+        android:text="SUBMIT"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginTop="122dp"
+        android:text="Bd"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_alignLeft="@+id/textView" />
+
+    <EditText
+        android:id="@+id/bd"
+        android:layout_width="215dp"
+        android:layout_height="25dp"
+        android:layout_alignStart="@+id/name"
+        android:layout_alignTop="@+id/textView2"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="bd"
+        android:textSize="17sp"
+        android:layout_alignLeft="@+id/name" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginTop="158dp"
+        android:text="Rank"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_alignLeft="@+id/textView" />
+
+
+    <EditText
+        android:id="@+id/rank"
+        android:layout_width="220dp"
+        android:layout_height="25dp"
+        android:layout_alignEnd="@+id/name"
+        android:layout_alignTop="@+id/textView3"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="rank"
+        android:textSize="17sp"
+        android:layout_alignRight="@+id/name" />
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginTop="257dp"
+        android:text="Base"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_alignLeft="@+id/textView" />
+
+
+    <EditText
+        android:id="@+id/base"
+        android:layout_width="215dp"
+        android:layout_height="25dp"
+        android:layout_alignStart="@+id/name"
+        android:layout_alignTop="@+id/textView4"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="base"
+        android:textSize="17sp"
+        android:layout_alignLeft="@+id/name" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginBottom="229dp"
+        android:text="Contact Number"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_alignLeft="@+id/textView" />
+
+    <EditText
+        android:id="@+id/contactnumber"
+        android:layout_width="178dp"
+        android:layout_height="25dp"
+        android:layout_alignEnd="@+id/base"
+        android:layout_alignTop="@+id/textView5"
+        android:inputType="textPhonetic"
+        android:text="contactnumber"
+        android:textSize="17sp"
+        android:layout_alignRight="@+id/base" />
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginBottom="184dp"
+        android:text="Date of  Comission"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_alignLeft="@+id/textView" />
+
+    <EditText
+        android:id="@+id/dateofcommision"
+        android:layout_width="176dp"
+        android:layout_height="25dp"
+        android:layout_alignStart="@+id/contactnumber"
+        android:layout_alignTop="@+id/textView6"
+        android:inputType="date"
+        android:text="dateofcomission"
+        android:textSize="17sp"
+        android:layout_alignLeft="@+id/contactnumber" />
+
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginBottom="136dp"
+        android:text="Present Address"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_alignLeft="@+id/textView" />
+
+    <EditText
+        android:id="@+id/presentaddress"
+        android:layout_width="173dp"
+        android:layout_height="25dp"
+
+        android:layout_alignStart="@+id/dateofcommision"
+        android:layout_alignTop="@+id/textView7"
+        android:inputType="textPersonName"
+        android:text="presentaddress"
+        android:textSize="17sp"
+        android:layout_alignLeft="@+id/dateofcommision" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="118dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginBottom="97dp"
+        android:text="no of children"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_alignLeft="@+id/textView" />
+
+    <EditText
+        android:id="@+id/noofchildren"
+        android:layout_width="173dp"
+        android:layout_height="25dp"
+        android:layout_alignBottom="@+id/textView8"
+        android:layout_alignStart="@+id/contactnumber"
+        android:inputType="textPersonName"
+        android:text="presentaddress"
+        android:textSize="17sp"
+        android:layout_alignLeft="@+id/contactnumber" />
+
+
+
+
+
+
+</RelativeLayout>
