@@ -6,6 +6,18 @@
     android:layout_height="match_parent"
     android:background="@drawable/kaniz">
 
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="240dp"
+        android:layout_height="27dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Accomodation Form"
+        android:textColor="#1cdab4"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
 
     <TextView
         android:id="@+id/textView0"
@@ -89,7 +101,7 @@
         android:layout_alignStart="@+id/name"
         android:layout_alignTop="@+id/textView2"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:inputType="number"
         android:text="bd"
         android:textSize="17sp"
         android:layout_alignLeft="@+id/name" />
@@ -167,7 +179,7 @@
         android:layout_height="25dp"
         android:layout_alignEnd="@+id/base"
         android:layout_alignTop="@+id/textView5"
-        android:inputType="textPhonetic"
+        android:inputType="number"
         android:text="contactnumber"
         android:textSize="17sp"
         android:layout_alignRight="@+id/base" />
@@ -266,7 +278,7 @@
         android:layout_height="25dp"
         android:layout_alignBottom="@+id/textView8"
         android:layout_alignStart="@+id/contactnumber"
-        android:inputType="textPersonName"
+        android:inputType="number"
         android:text="presentaddress"
         android:textSize="17sp"
         android:layout_alignLeft="@+id/contactnumber" />
