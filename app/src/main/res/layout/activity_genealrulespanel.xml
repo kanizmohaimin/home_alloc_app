@@ -4,11 +4,59 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bafplane"
     tools:context=".genealrulespanel">
 
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="131dp"
+        android:layout_height="112dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="124dp"
+        android:layout_marginRight="124dp"
+        android:background="@drawable/logo"
+        android:contentDescription="@string/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints" />
+
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="general"/>
+        android:id="@+id/textview8"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center_horizontal"
+        android:text="GENERAL RULES"
+        android:textColor="#1a0f69"
+        android:textColorLink="@color/colorPrimaryDark"
+        android:textSize="25dp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="128dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textview9"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center_horizontal"
+        android:text="1. Seniors get the priority
+2. Married officers get the priority
+3.Those who have children get the priority
+4.After canceling the given oppertunity one can not apply for next 6 months."
+
+        android:textColor="#0d0b01"
+        android:textColorLink="@color/colorPrimaryDark"
+        android:textSize="25dp"
+        android:textStyle="bold|italic"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="250dp" />
 
 </android.support.constraint.ConstraintLayout>
